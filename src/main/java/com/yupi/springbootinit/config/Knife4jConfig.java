@@ -30,7 +30,7 @@ public class Knife4jConfig {
                         .build())
                 .select()
                 // 指定 Controller 扫描包路径
-                .apis(RequestHandlerSelectors.basePackage("com.zack.springbootinit.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.yupi.springbootinit.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

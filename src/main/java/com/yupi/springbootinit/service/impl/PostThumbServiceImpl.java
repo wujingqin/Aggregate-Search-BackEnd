@@ -11,7 +11,6 @@ import com.yupi.springbootinit.model.entity.User;
 import com.yupi.springbootinit.service.PostService;
 import com.yupi.springbootinit.service.PostThumbService;
 import javax.annotation.Resource;
-
 import org.springframework.aop.framework.AopContext;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
