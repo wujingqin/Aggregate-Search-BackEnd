@@ -5,9 +5,6 @@ import com.yupi.springbootinit.common.ResultUtils;
 import com.yupi.springbootinit.manager.SearchFacade;
 import com.yupi.springbootinit.model.dto.search.SearchRequest;
 import com.yupi.springbootinit.model.vo.SearchV0;
-import com.yupi.springbootinit.service.PictureService;
-import com.yupi.springbootinit.service.PostService;
-import com.yupi.springbootinit.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -21,15 +18,6 @@ import javax.servlet.http.HttpServletRequest;
 @RequestMapping("/search")
 @Slf4j
 public class SearchController {
-
-    @Resource
-    private UserService userService;
-
-    @Resource
-    private PostService postService;
-
-    @Resource
-    private PictureService pictureService;
 
     @Resource
     private SearchFacade searchFacade;
